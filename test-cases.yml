@@ -33,8 +33,6 @@
   test-data: |
     Логин = Логин = hexlet Пароль = badpass
   steps:
-    - 
-    - 
     - Нажимаем кнопку "Войти"
   expected-result: |
     Пользователь должен попасть на главную страницу
@@ -52,8 +50,6 @@
   test-data: |
     Логин = Логин = hexlet Пароль = badpass
   steps:
-    - 
-    - 
     - Нажимаем кнопку "Войти"
   expected-result: |
     Пользователь должен 
@@ -71,8 +67,6 @@
   test-data: |
     Логин = Логин = hexlet Пароль = badpass
   steps:
-    - 
-    - 
     - Нажимаем кнопку "Войти"
   expected-result: |
     Пользователь должен 
@@ -90,8 +84,6 @@
   test-data: |
     Логин = Логин = hexlet Пароль = badpass
   steps:
-    - 
-    - 
     - Нажимаем кнопку "Войти"
   expected-result: |
     Пользователь должен 
@@ -109,8 +101,6 @@
   test-data: |
     Логин = Логин = hexlet Пароль = badpass
   steps:
-    - 
-    - 
     - Нажимаем кнопку "Войти"
   expected-result: |
     Пользователь должен 
@@ -128,8 +118,6 @@
   test-data: |
     Логин = Логин = hexlet Пароль = badpass
   steps:
-    - 
-    - 
     - Нажимаем кнопку "Войти"
   expected-result: |
     Пользователь должен 
@@ -147,8 +135,6 @@
   test-data: |
     Логин = Логин = hexlet Пароль = badpass
   steps:
-    - 
-    - 
     - Нажимаем кнопку "Войти"
   expected-result: |
     Пользователь должен 
@@ -166,8 +152,6 @@
   test-data: |
     Логин = Логин = hexlet Пароль = badpass
   steps:
-    - 
-    - 
     - Нажимаем кнопку "Войти"
   expected-result: |
     Пользователь должен
@@ -185,8 +169,6 @@
   test-data: |
     
   steps:
-    - 
-    - 
     - Нажимаем кнопку "Войти"
   expected-result: |
     Пользователь должен 
