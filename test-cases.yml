@@ -25,14 +25,14 @@
     ---------------------------------------- test-case # 2 --------------------------------------------
     Успешная авторизация через GitHub.
   requirement: |
-    Пользователь должен иметь возможность авторизации с помощью Nickname, Email и Passwor
+    Пользователь должен иметь возможность авторизации через GitHub.
   prerequisites:
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
     Аккаунт на GitHub создан и авторизирован
     Website https://codebattle.hexlet.io/
   test-data: |
-    Логин = Логин = hexlet Пароль = badpass
+    Аккаунт на GitHub
   steps:
     - Нажимаем кнопку "Войти"
   expected-result: |
