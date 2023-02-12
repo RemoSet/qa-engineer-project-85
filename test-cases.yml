@@ -9,16 +9,16 @@
     Web browser Google Chrome Версия 108.0.5359.100
     Website https://codebattle.hexlet.io/
   test-data: |
-    Nickname = Singleton 
-    Email = code@mail.ru
-    Password = Multiple
+    Nickname =          Singleton 
+    Email =             code@mail.ru
+    Password =          Multiple
   steps:
-    - Нажимаем кнопку: "Sign up"
-    - Вводим Nickname:   Singleton
-    - Вводим Email:      code@mail.ru
-    - Вводим Password:   Multiple
-    - Вводим Password:   Multiple
-    - Нажимаем кнопку: "Submit"
+    - Нажимаем кнопку   "Sign up"
+    - Вводим Nickname   Singleton
+    - Вводим Email      code@mail.ru
+    - Вводим Password   Multiple
+    - Вводим Password   Multiple
+    - Нажимаем кнопку   "Submit"
   expected-result: |
     Пользователь должен попасть на главную страницу.
 
@@ -32,11 +32,14 @@
     Web browser Google Chrome Версия 108.0.5359.100
     Website https://codebattle.hexlet.io/
   test-data: |
-    Nickname = Singleton 
-    Email = code@mail.ru
-    Password = Multiple   
+    Nickname =          Singleton 
+    Email =             code@mail.ru
+    Password =          Multiple   
   steps:
-    - Нажимаем кнопку "Войти"
+    - Нажимаем кнопку   "Sign in"
+    - Вводим Email      code@mail.ru
+    - Вводим Password   Multiple
+    - Нажимаем кнопку   "Sign in"
   expected-result: |
     Пользователь должен попасть на главную страницу под ником "Singleton".
     
@@ -45,13 +48,12 @@
     Возможность просмотра истории баттлов.
   requirement: |
     Тестируемое требование.
-    При неправильном логине или пароле пользователь должен получить сообщение об ошибке
   prerequisites:
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
     Website https://codebattle.hexlet.io/
   test-data: |
-    Логин = Логин = hexlet Пароль = badpass
+    
   steps:
     - Нажимаем кнопку "Войти"
   expected-result: |
@@ -62,13 +64,12 @@
     Возможность просмотра повтора баттла.
   requirement: |
     Тестируемое требование.
-    При неправильном логине или пароле пользователь должен получить сообщение об ошибке
   prerequisites:
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
     Website https://codebattle.hexlet.io/
   test-data: |
-    Логин = Логин = hexlet Пароль = badpass
+    
   steps:
     - Нажимаем кнопку "Войти"
   expected-result: |
@@ -79,13 +80,12 @@
     Возможность просмотра баттла зрителем в режиме online.
   requirement: |
     Тестируемое требование.
-    При неправильном логине или пароле пользователь должен получить сообщение об ошибке
   prerequisites:
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
     Website https://codebattle.hexlet.io/
   test-data: |
-    Логин = Логин = hexlet Пароль = badpass
+    
   steps:
     - Нажимаем кнопку "Войти"
   expected-result: |
@@ -96,13 +96,12 @@
     Возможность выбора языка программирования в терминале баттла.
   requirement: |
     Тестируемое требование.
-    При неправильном логине или пароле пользователь должен получить сообщение об ошибке
   prerequisites:
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
     Website https://codebattle.hexlet.io/
   test-data: |
-    Логин = Логин = hexlet Пароль = badpass
+    
   steps:
     - Нажимаем кнопку "Войти"
   expected-result: |
@@ -113,13 +112,12 @@
     Возможность менять выриант языка сайта (русский и английский).
   requirement: |
     Тестируемое требование.
-    При неправильном логине или пароле пользователь должен получить сообщение об ошибке
   prerequisites:
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
     Website https://codebattle.hexlet.io/
   test-data: |
-    Логин = Логин = hexlet Пароль = badpass
+    
   steps:
     - Нажимаем кнопку "Войти"
   expected-result: |
@@ -130,13 +128,12 @@
     Участники не могут писать и изменять код соперника.
   requirement: |
     Тестируемое требование.
-    При неправильном логине или пароле пользователь должен получить сообщение об ошибке
   prerequisites:
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
     Website https://codebattle.hexlet.io/
   test-data: |
-    Логин = Логин = hexlet Пароль = badpass
+    
   steps:
     - Нажимаем кнопку "Войти"
   expected-result: |
@@ -147,13 +144,12 @@
     Зрители не могут писать код и вносить изменения в код участников.
   requirement: |
     Тестируемое требование.
-    При неправильном логине или пароле пользователь должен получить сообщение об ошибке
   prerequisites:
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
     Website https://codebattle.hexlet.io/
   test-data: |
-    Логин = Логин = hexlet Пароль = badpass
+    
   steps:
     - Нажимаем кнопку "Войти"
   expected-result: |
