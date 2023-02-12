@@ -1,20 +1,23 @@
 ---
 - summary: |
     ---------------------------------------- test-case # 1 --------------------------------------------
-    Успешная авторизация на сайте.
+    Успешная авторизация через Nickname, Email и Password.
   requirement: |
-    Тестируемое требование. 
+    Пользователь должен иметь возможность авторизации с помощью Nickname, Email и Password.
   prerequisites: |
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
     Website https://codebattle.hexlet.io/
   test-data: |
-    Тестовые данные Открыта страница
-    Логин = ilona Пароль = password
+    Nickname = Singleton 
+    Email = code@mail.ru
+    Password = Multiple
   steps:
-    - Вводим логин
-    - Вводим пароль
-    - Нажимаем кнопку "Войти"
+    - Вводим Nickname
+    - Вводим Email
+    - Вводим Password
+    - Вводим Password
+    - Нажимаем кнопку "Submit"
   expected-result: |
     Пользователь должен попасть на главную страницу
 
@@ -22,8 +25,7 @@
     ---------------------------------------- test-case # 2 --------------------------------------------
     Успешная авторизация через GitHub.
   requirement: |
-    Тестируемое требование.
-    При неправильном логине или пароле пользователь должен получить сообщение об ошибке
+    Пользователь должен иметь возможность авторизации с помощью Nickname, Email и Passwor
   prerequisites:
     OS 22000.1219 Windows 11 Версия 21H2
     Web browser Google Chrome Версия 108.0.5359.100
