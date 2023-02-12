@@ -13,10 +13,11 @@
     Email = code@mail.ru
     Password = Multiple
   steps:
-    - Вводим Nickname
-    - Вводим Email
-    - Вводим Password
-    - Вводим Password
+    - Нажимаем кнопку "Sign up"
+    - Вводим Nickname   Singleton
+    - Вводим Email      code@mail.ru
+    - Вводим Password   Multiple
+    - Вводим Password   Multiple
     - Нажимаем кнопку "Submit"
   expected-result: |
     Пользователь должен попасть на главную страницу.
