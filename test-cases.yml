@@ -53,7 +53,7 @@
     Web browser Google Chrome Версия 108.0.5359.100
     Website https://codebattle.hexlet.io/
   test-data: |
-    
+    -----------------    
   steps:
     - Нажимаем кнопку "Войти"
   expected-result: |
@@ -69,7 +69,7 @@
     Web browser Google Chrome Версия 108.0.5359.100
     Website https://codebattle.hexlet.io/
   test-data: |
-    
+    -----------------    
   steps:
     - Нажимаем кнопку "Войти"
   expected-result: |
@@ -85,7 +85,7 @@
     Web browser Google Chrome Версия 108.0.5359.100
     Website https://codebattle.hexlet.io/
   test-data: |
-    
+    -----------------    
   steps:
     - Нажимаем кнопку "Войти"
   expected-result: |
@@ -101,7 +101,7 @@
     Web browser Google Chrome Версия 108.0.5359.100
     Website https://codebattle.hexlet.io/
   test-data: |
-    
+    -----------------    
   steps:
     - Нажимаем кнопку "Войти"
   expected-result: |
@@ -117,7 +117,7 @@
     Web browser Google Chrome Версия 108.0.5359.100
     Website https://codebattle.hexlet.io/
   test-data: |
-    
+    -----------------    
   steps:
     - Нажимаем кнопку "Войти"
   expected-result: |
@@ -133,7 +133,7 @@
     Web browser Google Chrome Версия 108.0.5359.100
     Website https://codebattle.hexlet.io/
   test-data: |
-    
+    -----------------    
   steps:
     - Нажимаем кнопку "Войти"
   expected-result: |
@@ -149,7 +149,7 @@
     Web browser Google Chrome Версия 108.0.5359.100
     Website https://codebattle.hexlet.io/
   test-data: |
-    
+    -----------------    
   steps:
     - Нажимаем кнопку "Войти"
   expected-result: |
