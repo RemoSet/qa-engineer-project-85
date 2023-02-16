@@ -1,11 +1,16 @@
 ---
-name: Alexander Marinin
-job: QA Engineer
-level: Student Hexlet https://ru.hexlet.io/u/bruno
+name: Александр Маринин
+job: "Инженер по тестированию фронтенда". QA Engineer
+level: Студент Hexlet https://ru.hexlet.io/u/bruno
 email: vogelrasse@mail.ru 
 description: |
-  О себе, исключительно скромно.
-  https://cv.hexlet.io/account/resumes
+  О себе, исключительно скромно - уникален.
+  https://cv.hexlet.io/resumes/1901
   
 skills:
-  - написание багрепортов
+  - анализ требований
+  - составление тест-кейсов и проведение тестирования
+  - составление тест-репорта
+  - составление баг-репорта
+  - проведение регрессионного тестирования
+  - навыки работы с языком разметки MarkDown и YAML
