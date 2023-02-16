@@ -18,4 +18,4 @@
   actual-result: |
     Элемент изображения искажает компоновку в локации русского языка.
   severity: trivial
-  comment: Ошибка изображена на скриншоте /images/ID 1/screen1.png
+  comment: Ошибка изображена на скриншоте /Images/ID 1/screen1.png
