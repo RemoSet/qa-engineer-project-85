@@ -1,8 +1,8 @@
 ---
 issues:
   - url: "https://github.com/hexlet-codebattle/codebattle/issues/1261"
-  severity: trivial
-  comment: Ошибка изображена на скриншоте /images/ID 1/screen1.png
+severity: trivial
+comment: Ошибка изображена на скриншоте /images/ID 1/screen1.png
   
   
   - url: "https://github.com/hexlet-codebattle/codebattle/issues/1173"
