@@ -1,0 +1,18 @@
+    ----------------------------------------bugreport ID 2 -----------------------------------------
+    
+    Артефакт на стартовой странице.
+    
+  environment: |
+    OS 22000.1219 Windows 11 Версия 21H2
+    Web browser Google Chrome Версия 108.0.5359.100
+    Website https://codebattle.hexlet.io/
+    Стартовая страница сайта.
+  steps-to-reproduce: |
+    1. Навести курсор мышки на кнопку "Sign in"
+  expected-result: |
+    Рядом с кнопкой не должно возникать артефактов.
+  actual-result: |
+    Рядом с кнопкой возникает артефакт.
+  severity: trivial
+  comment: Ошибка изображена на скриншоте /Images/ID 2/screen2.png
+    
